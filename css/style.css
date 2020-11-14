@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+.clear {
+    overflow: hidden;
+}
+a {
+    text-decoration: none;
+}
+ul,
+ol {
+    list-style-type: none;
+}
+img {
+    border: 0;
+}
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+p {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+/*Typrography Finish*/
+
+
+/*Menu Part CSS Start*/
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light {
+    color: black;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    /*    padding-right: 70px;*/
+}
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    padding-left: 70px;
+}
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+/*Menu Part CSS End*/
+
+
+/*Slider Part Start*/
+
+#slider_part {
+    padding-top: 120px;
+    background: #fcdb00;
+    display: block;
+    padding-bottom: 100px;
+}
+.slider_left h2 {
+    font-size: 32px;
+    color: black;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    margin-bottom: 25px;
+    padding-top: 70px;
+}
+.slider_left h4 {
+    font-size: 20px;
+    color: black;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+}
+.slider_left p {
+    font-size: 16px;
+    color: #555555;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    padding-top: 25px;
+    width: 400px;
+}
+.slider_left ul li {
+    float: left;
+}
+.slider_left ul li a {
+    margin-right: 40px;
+    font-size: 40px;
+    color: black;
+}
+.i_pad {
+    margin-left: 175px;
+}
+
+/*Slider Part End*/
+
+
+/*about_part Css Start*/
+
+#about_part {
+/*    padding-bottom: 150px;*/
+}
+.about_heading_part {
+    padding-top: 115px;
+}
+.about_heading_part h3 {
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'PT Sans', sans-serif;
+}
+.about_heading_part p {
+    color: #313841;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'PT Sans', sans-serif;
+    padding: 0px 150px;
+    padding-bottom: 85px;
+}
+.about_icon {}
+.about_icon a {
+    font-size: 40px;
+    color: #000;
+    margin-left: 42px;
+}
+.about_left {
+    margin-top: 8px;
+    padding-bottom: 80px;
+    margin-left: 20px;
+}
+.about_left h3 {
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'PT Sans', sans-serif;
+}
+.about_left p {
+    color: #898989;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'PT Sans', sans-serif;
+    padding-right: 11px;
+}
+
+/*about_part Css End*/
+
+/*footer Paart HTML Start*/
+#footer_part {
+    background-color: #010101;
+    /*    margin-top: 90px;*/
+}
+.footer_top {
+    margin-top: 90px;
+}
+.footer_top h3 {
+    color: #fcdb00;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'PT Sans', sans-serif;
+}
+.footer_top p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #898989;
+    padding: 0px 150px;
+    margin-bottom: 40px;
+}
+.search_box {
+    width: 580px;
+    height: 50px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.search_btn {
+    background-color: #fcdb00;
+    width: 125px;
+    height: 50px;
+    margin-left: 15px;
+    color: #010101;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 10px;
+    font-family: 'PT Sans', sans-serif;
+}
+.footer_icon {
+    margin-top: 60px;
+    padding-bottom: 130px;
+}
+.footer_icon ul {
+    margin-left: 380px;
+}
+.footer_icon ul li {
+    float: left;
+    margin-left: 30px;
+}
+.footer_icon ul li a {
+    font-size: 40px;
+    /*    background: #fcdb00; */
+    color: #fcdb00;
+}
+.footer_btn_left{
+   padding-bottom: 130px; 
+}
+.footer_btn_left p{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'PT Sans', sans-serif;
+}
+.footer_m1 ul {
+        margin-left: 130px;
+}
+.footer_m1 ul li{}
+.footer_m1 p{
+    color: white;
+     font-size: 16px;
+    font-weight: 400;
+    font-family: 'PT Sans', sans-serif;
+}
+.footer_m2{}
+.footer_m2 ul{}
+.footer_m2 ul li{}
+.footer_m2 ul li p{
+    color: white;
+     font-size: 16px;
+    font-weight: 400;
+    font-family: 'PT Sans', sans-serif;
+}
+.footer_m3 p{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'PT Sans', sans-serif;
+}
+.footer_right p{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'PT Sans', sans-serif;
+}
+/*footer Paart HTML End*/
